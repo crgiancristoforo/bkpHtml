@@ -1,0 +1,9 @@
+<script>
+    $(document).ready(function () {
+        console.log("Done...");
+        $("#tst").remove();
+    });
+    function Startup() {
+        $("#tst").add();
+    };
+</script>
